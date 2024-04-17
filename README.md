@@ -22,7 +22,7 @@ DEBUG= # True para desarrollo, False para producción
 
 #### Estructura de Archivos
 
-- `indexer.py`: Script para indexar el padrón reducido en ElasticSearch. Es necesario descargar el archivo del padrón de SUNAT y colocarlo en la carpeta `data`.
+- `indexer.py`: Script para indexar el padrón reducido en ElasticSearch. Es necesario descargar el archivo del [padrón de SUNAT](https://www.sunat.gob.pe/descargaPRR/mrc137_padron_reducido.html) y colocarlo en la carpeta `data`.
 - `searcher.py`: Módulo para realizar consultas de RUC desde la línea de comando, útil para depuración y pruebas.
 - `app.py`: Servidor Flask que expone endpoints REST para las consultas de RUC.
 
