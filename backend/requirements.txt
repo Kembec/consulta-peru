@@ -1,0 +1,5 @@
+elasticsearch
+pandas
+chardet
+flask
+flask-cors

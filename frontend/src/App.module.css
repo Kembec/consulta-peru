@@ -1,0 +1,45 @@
+.article {
+  @apply min-h-[100dvh] overflow-auto bg-blue-950 select-none pb-16;
+}
+.article > header {
+  @apply bg-slate-900/40 min-h-[50dvh] text-white px-10 pt-10 lg:pt-16 text-2xl flex flex-col relative;
+}
+.on > header {
+  @apply min-h-fit;
+}
+.article > header h1 {
+  @apply antialiased font-extrabold my-auto mx-auto;
+  @apply text-center lg:text-left;
+  @apply text-5xl lg:text-7xl xl:text-8xl;
+}
+.article > header > div {
+  @apply relative flex flex-nowrap mx-auto min-w-[80%] lg:min-w-[60%] bg-slate-50 translate-y-1/2 mt-auto;
+  @apply  *:h-24;
+}
+.article > header > div > input {
+  @apply flex bg-slate-50 flex-1 text-2xl lg:text-4xl text-blue-950 px-5 outline-none;
+  @apply w-[70%] lg:w-[80%] xl:w-[90%];
+}
+.article > header > div > button {
+  @apply flex bg-blue-600 hover:bg-blue-500 transition-colors justify-center items-center;
+  @apply w-[30%] lg:w-[20%] xl:w-[10%];
+}
+.article > header > div > nav {
+  @apply absolute top-full text-xs flex flex-row gap-3 mt-2 text-white/80 left-0;
+}
+.article > header > div > nav a  {
+  @apply hover:underline font-light;
+}
+
+.article > section {
+  @apply w-[80%] lg:w-[60%] mt-32 p-7 lg:p-10 mx-auto flex flex-col bg-white *:select-all drop-shadow-md  divide-y divide-slate-900/10;
+}
+.article > section > h2 {
+  @apply text-2xl lg:text-3xl font-bold antialiased pb-5;
+}
+.article > section > div {
+  @apply grid grid-cols-1 lg:grid-cols-2 py-5 gap-2 items-center;
+}
+.article > section > div > strong {
+  @apply text-slate-900/90;
+}
