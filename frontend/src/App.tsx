@@ -93,7 +93,7 @@ function App() {
 						>
 							TEST
 						</a>
-						<a href="">GITHUB</a>
+						<a href="https://github.com/Kembec/consulta-peru.git">GITHUB</a>
 					</nav>
 				</div>
 			</header>
