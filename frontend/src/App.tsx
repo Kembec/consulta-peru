@@ -46,7 +46,7 @@ function App() {
 		setRuc(parseValue);
 	};
 	const testing = () => {
-		setRuc(10452159428);
+		setRuc(20131312955);
 	};
 
 	//Listeners
